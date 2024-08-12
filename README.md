@@ -23,6 +23,21 @@ To make full use of Java as a pure Object-Oriented language and, by extension, o
 	<img src="https://github.com/user-attachments/assets/4e7e00c4-c54b-42e3-8234-e38519ec3efa">
 </div>
 
+### Horizontal vs vertical testing
+
+There are 6 test classes, each of which corresponds to an element of the pop-up window. Taking advantage of JUnit's ordering capabilities, the test classes are run according to a custom order (horizontal testing).
+
+| Ordering number | Window element  | Test class |
+|------------- | ------------- | ------------- |
+| #1 | 'click me' link  | ClickMeTest  |
+| #2 | Analytics checkbox | PerformanceCheckBoxTest |
+| #3 | Twitter checkbox | TwitterCheckBoxTex |
+| #4 | Meta checkbox| FacebookCheckBoxTest |
+| #5 | Accept All Cookies button | AcceptAllCookiesTest |
+| #6 | Reject All Cookies button| RejectAllCookiesTest |
+
+Furthermore, each class contains test methods that correspond to a series of simulated steps per window element. As in the case of the test classes, the test methods are run according to a custom order (vertical testing).
+
 ### Prerequisites
 * Java 17 or higher,
 * Intellij IDEA (or any other Java IDE),
