@@ -1,4 +1,4 @@
-# selenium-java-junit-feature1
+# selenium-java-junit-popupwindow
 ![Functional Testing Demo App](https://img.shields.io/badge/demo_app-blue)
 
 ### About the project
