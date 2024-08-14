@@ -1,5 +1,5 @@
 # selenium-java-junit-popupwindow
-![Functional Testing Demo App](https://img.shields.io/badge/demo_app-blue)
+![Functional Testing Demo App](https://img.shields.io/badge/Demo_project-blue)
 
 ### About the project
 The project showcases the use of Selenium with Java and JUnit for performing functional tests on a pop-up window.
